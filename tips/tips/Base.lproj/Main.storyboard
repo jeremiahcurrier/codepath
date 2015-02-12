@@ -62,7 +62,7 @@
                                 </connections>
                             </textField>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="5OP-Or-H4G">
-                                <rect key="frame" x="28" y="345" width="265" height="29"/>
+                                <rect key="frame" x="27" y="338" width="265" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="18%"/>
@@ -72,16 +72,26 @@
                             </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="D4t-7L-sXs" appends="YES" id="n6u-1t-4Zx"/>
+                        </connections>
                     </view>
                     <connections>
                         <outlet property="billField" destination="TdR-xY-aGb" id="Fot-J7-62R"/>
+                        <outlet property="tipControl" destination="5OP-Or-H4G" id="bKi-VZ-KTQ"/>
                         <outlet property="tipLabel" destination="LOs-s8-QvR" id="mzJ-cz-9OK"/>
                         <outlet property="totalLabel" destination="atD-eh-u5B" id="JTV-ze-TMX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="D4t-7L-sXs">
+                    <connections>
+                        <action selector="onTap:" destination="vXZ-lx-hvc" id="piZ-XG-fdJ"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="309" y="355"/>
+            <point key="canvasLocation" x="61" y="334"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
