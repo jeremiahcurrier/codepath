@@ -11,4 +11,4 @@ Tutorial Complete - result below:
 
 ![](http://g.recordit.co/WukJnwqdWc.gif)
 
-##### 2. - This will be the Rotten Tomatoes iOS app - not yet started as of Thurs Feb 12th 2014 - goal to finish by EOD tomorrow Feb 13th, 2014
+##### 2. - This will be the Rotten Tomatoes iOS app - completion date TBD indefinately - course placed on hold.
